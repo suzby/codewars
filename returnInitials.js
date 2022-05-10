@@ -15,4 +15,13 @@ It should look like this:
 Sam Harris => S.H
 
 patrick feeney => P.F
+
+************BEST PRACTICE:
+
+function abbrevName(name){
+
+  var nameArray = name.split(" ");
+  return (nameArray[0][0] + "." + nameArray[1][0]).toUpperCase();
+}
+
 */
